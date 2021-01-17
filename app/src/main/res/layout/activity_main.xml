@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/celular" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Aprenda sobre edição de imagens"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView3"
+            app:layout_constraintEnd_toStartOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="10/05/2030"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam bibendum nibh. Duis fringilla ex sapien, in venenatis est egestas sed. Integer gravida enim vel nisl porta mollis. Cras at magna et augue faucibus scelerisque. Donec condimentum, risus ut posuere feugiat, diam quam tempor velit, eu malesuada justo velit at ante. Morbi eget risus sit amet nibh euismod pretium eget non justo. Pellentesque ac lacus nec sem posuere tincidunt. Quisque quis mauris neque. Etiam eget sagittis justo, in commodo purus. Nulla non bibendum erat, quis imperdiet justo. Curabitur et erat in enim placerat dictum. Donec sit amet viverra orci. Fusce semper sapien volutpat orci mollis, sit amet tempor lorem gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id aliquet est. Maecenas felis sem, auctor id urna in, interdum tempus lorem.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id aliquet est. Maecenas felis sem, auctor id urna in, interdum tempus lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id aliquet est. Maecenas felis sem, auctor id urna in, interdum tempus lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id aliquet est. Maecenas felis sem, auctor id urna in, interdum tempus lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id aliquet est. Maecenas felis sem, auctor id urna in, interdum tempus lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id aliquet est. Maecenas felis sem, auctor id urna in, interdum tempus lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id aliquet est. Maecenas felis sem, auctor id urna in, interdum tempus lorem."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="@Olegram"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+            app:layout_constraintEnd_toStartOf="@+id/button2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Anterior"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button3"
+            app:layout_constraintEnd_toStartOf="@+id/button3" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Próximo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintVertical_bias="1.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
